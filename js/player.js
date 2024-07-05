@@ -7,23 +7,23 @@ export class Player {
     
     preload() {
         // Carga de recursos si es necesario
-        this.myScene.load.image('playerRunF1','../assest/player/Caminar/caminar1.png');
-        this.myScene.load.image('playerRunF2','../assest/player/Caminar/caminar2.png');
-        this.myScene.load.image('playerRunF3','../assest/player/Caminar/caminar3.png');
-        this.myScene.load.image('playerRunF4','../assest/player/Caminar/caminar4.png');
+        this.myScene.load.image('playerRunF1','assest/player/Caminar/caminar1.png');
+        this.myScene.load.image('playerRunF2','assest/player/Caminar/caminar2.png');
+        this.myScene.load.image('playerRunF3','assest/player/Caminar/caminar3.png');
+        this.myScene.load.image('playerRunF4','assest/player/Caminar/caminar4.png');
     
-        this.myScene.load.image('playerIdleF1','../assest/player/Personaje_reposo/personaje-reposo1.png');
-        this.myScene.load.image('playerIdleF2','../assest/player/Personaje_reposo/personaje-reposo2.png');
-        this.myScene.load.image('playerIdleF3','../assest/player/Personaje_reposo/personaje-reposo3.png');
-        this.myScene.load.image('playerIdleF4','../assest/player/Personaje_reposo/personaje-reposo4.png');
+        this.myScene.load.image('playerIdleF1','assest/player/Personaje_reposo/personaje-reposo1.png');
+        this.myScene.load.image('playerIdleF2','assest/player/Personaje_reposo/personaje-reposo2.png');
+        this.myScene.load.image('playerIdleF3','assest/player/Personaje_reposo/personaje-reposo3.png');
+        this.myScene.load.image('playerIdleF4','assest/player/Personaje_reposo/personaje-reposo4.png');
         
-        this.myScene.load.image('playerJumpF1','../assest/player/Salto/personaje1.png');
-        this.myScene.load.image('playerJumpF2','../assest/player/Salto/personaje2.png');
-        this.myScene.load.image('playerJumpF3','../assest/player/Salto/personaje3.png');
-        this.myScene.load.image('playerJumpF4','../assest/player/Salto/personaje4.png');
-        this.myScene.load.image('playerJumpF5','../assest/player/Salto/personaje5.png');
+        this.myScene.load.image('playerJumpF1','assest/player/Salto/personaje1.png');
+        this.myScene.load.image('playerJumpF2','assest/player/Salto/personaje2.png');
+        this.myScene.load.image('playerJumpF3','assest/player/Salto/personaje3.png');
+        this.myScene.load.image('playerJumpF4','assest/player/Salto/personaje4.png');
+        this.myScene.load.image('playerJumpF5','assest/player/Salto/personaje5.png');
         
-        this.myScene.load.image('playerFallF1','../assest/personaje/personaje1.png');
+        this.myScene.load.image('playerFallF1','assest/personaje/personaje1.png');
 
         
     }
