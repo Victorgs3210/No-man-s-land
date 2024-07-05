@@ -4,9 +4,9 @@ export class Plataformas{
     }
 
     preload(){
-        this.myScene.load.image('tiles', '/assest/paquetes/kenney_pixel-platformer-industrial-expansion/paquete1.png')
-        this.myScene.load.image('tiles1', '/assest/paquetes/kenney_pixel-platformer-industrial-expansion/herramientas.png')
-        this.myScene.load.tilemapTiledJSON('tilemapJSON', '/json/Tutorial_subterarnia.json')
+        this.myScene.load.image('tiles', 'assest/paquetes/kenney_pixel-platformer-industrial-expansion/paquete1.png')
+        this.myScene.load.image('tiles1', 'assest/paquetes/kenney_pixel-platformer-industrial-expansion/herramientas.png')
+        this.myScene.load.tilemapTiledJSON('tilemapJSON', 'json/Tutorial_subterarnia.json')
     }
 
     create(){

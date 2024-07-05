@@ -18,10 +18,10 @@ export class Enemigo {
 
     preload() {
         // Carga de imágenes si es necesario (esto podría no ser necesario si ya se han cargado globalmente)
-        this.scene.load.image('enemigoRunF1', '../assest/enemigos/zombie_basico/modelo-personaje-acaminar1.png');
-        this.scene.load.image('enemigoRunF2', '../assest/enemigos/zombie_basico/modelo-personaje-acaminar2.png');
-        this.scene.load.image('enemigoRunF3', '../assest/enemigos/zombie_basico/modelo-personaje-acaminar3.png');
-        this.scene.load.image('enemigoRunF4', '../assest/enemigos/zombie_basico/modelo-personaje-acaminar4.png');
+        this.scene.load.image('enemigoRunF1', 'assest/enemigos/zombie_basico/modelo-personaje-acaminar1.png');
+        this.scene.load.image('enemigoRunF2', 'assest/enemigos/zombie_basico/modelo-personaje-acaminar2.png');
+        this.scene.load.image('enemigoRunF3', 'assest/enemigos/zombie_basico/modelo-personaje-acaminar3.png');
+        this.scene.load.image('enemigoRunF4', 'assest/enemigos/zombie_basico/modelo-personaje-acaminar4.png');
     }
 
     create() {

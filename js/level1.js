@@ -14,11 +14,11 @@ export class Level1 extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('fondo', '../assest/fondos/fondo.png');
-        this.load.image('enemigoRunF1', '../assest/enemigos/zombie_basico/modelo-personaje-acaminar1.png');
-        this.load.image('enemigoRunF2', '../assest/enemigos/zombie_basico/modelo-personaje-acaminar2.png');
-        this.load.image('enemigoRunF3', '../assest/enemigos/zombie_basico/modelo-personaje-acaminar3.png');
-        this.load.image('enemigoRunF4', '../assest/enemigos/zombie_basico/modelo-personaje-acaminar4.png');
+        this.load.image('fondo', 'assest/fondos/fondo.png');
+        this.load.image('enemigoRunF1', 'assest/enemigos/zombie_basico/modelo-personaje-acaminar1.png');
+        this.load.image('enemigoRunF2', 'assest/enemigos/zombie_basico/modelo-personaje-acaminar2.png');
+        this.load.image('enemigoRunF3', 'assest/enemigos/zombie_basico/modelo-personaje-acaminar3.png');
+        this.load.image('enemigoRunF4', 'assest/enemigos/zombie_basico/modelo-personaje-acaminar4.png');
 
         this.plataformas = new Plataformas(this);
         this.plataformas.preload();
